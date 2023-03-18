@@ -21,7 +21,9 @@
   - thực hiện các bước trên
   - git stash apply
 
-- git merge: tạo ra một commit mới trên branch hiện tại bao gồm sư thay đổi của cả 2 branch, commit mới sẽ có 2 commit cha là branch hiện tại và branch khác.điều này tạo ra lịch sử commit tương đối dễ đọc, nhưng đổi lại có thể tạo ra nhiều commit k cần thiết đặc biệt là khi phải thao tác liên tục việc tích hợp thường xuyên các thay đổi.
+- git merge: tạo ra một commit mới trên branch hiện tại bao gồm sư thay đổi của cả 2 branch, commit mới sẽ có 2 commit cha là branch hiện tại và branch khác.điều này tạo ra lịch sử commit tương đối dễ đọc, nhưng đổi lại có thể tạo ra nhiều commit k cần thiết đặc biệt là khi phải thao tác liên tục việc tích hợp thường xuyên các thay đổi. điều này tạo ra 1 cây commit đa nhánh
+  + khi thực hiện merge nếu commit trên nhánh đích không có sự thay đổi nào mà không co trên nhánh hiện tại thì sẽ thực hiện fast forward mà k tạo ra commit, tuy nhiên nếu co sự thay đổi thì sẽ thực hiện non-fast forward và tạo ra commit mới -> vậy khi nào lựa chọn thì tùy thuộc vaof mục đích
+  + cách tạo ff thì ta đã biết r: trong trường hợp file thay đổi k ảnh hưởng branch đích thì sẽ là ff, còn có thay đổi xảy ra conflict thì ta fix bằng merge thì sẽ là non-ff , còn fix = rebase xong về main merge thì sẽ là ff
   - git pull origin develop
   - git checkout <branch đang làm việc>
   - git merge origin/develop
