@@ -38,3 +38,5 @@
 - git rebase -i HEAD~n
 
 # pull kéo về và merge còn fetch kéo về và k merge, Branch này có thể checkout bằng tên là FETCH_HEAD.
+
+# push cần làm sao để fast-forward tức là k có xung đột
