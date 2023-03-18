@@ -6,7 +6,7 @@
 
 # xử lí conflict:
 
-- git rebase
+- git rebase: nó không tạo ra commit mơi mà sẽ move các commit ở branch hiện tại lên trên nhánh khác và sau đó kết hợp lại sự thay đổi ở nhánh khác sang nhánh hiện tại, keesst quả là lịch sử commit sẽ được sắp xếp theo thứ tự mới. các commit của nhánh hiện tại sẽ được đặt lên trên các nhánh khác. giảm commit k cần thiết, tuy nhiên việc tái cấu trucs lịch sử commit sẽ gây ra nhiều xung đột và cần cẩn thận
 
   - git pull origin develop
   - git checkout <branch đang làm việc>
