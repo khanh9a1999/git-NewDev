@@ -76,3 +76,10 @@
   - clone 1 remote repos xuống máy thành local repo
 # branch
   - đại dienejk cho 1 luồng phát triển -> tiến hành merge
+
+# xoas 1 file tận gốc rễ
+  - xóa local : git filter-branch --force --index-filter \
+      "git rm --cached --ignore-unmatch ActivationTool.zip" \
+      --prune-empty --tag-name-filter cat -- --all
+  - xoa repo: git push origin --force --all
+  
