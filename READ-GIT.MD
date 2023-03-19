@@ -49,6 +49,7 @@
 - xóa commit đã công khai tức đã merge 1 cách an toàn
 - hoàn tác lại tất cả các commit của 1 nhánh tính tử commit bạn điền đến commit mới nhất
 - tạo ra 1 commit mới.
+- undo 1 merge commit và có lịch sử hoàn tác
 
 #reset
   - loại bỏ commit : HEAD - index - tree
