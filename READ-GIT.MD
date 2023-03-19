@@ -56,7 +56,7 @@
   - loại bỏ commit : HEAD - index - tree
   - git reset --soft HEAD~ (git reset 'HEAD@{1}'): thay đổi HEAd ko thay đổi index và tree thích hợp cho việc ta commit lại từ đầu or đổi tên commit, tiếp tục code thêm. vì sao lại ko thay đổi index và work tree, tức file vẫn được lưu trong index nếu thay đổi thì 1 phần file vẫn ở ngoài index, và trong tree thì k còn commit tức HEAD trở veeff commit trước đó và trong tree bao gồm commit trc đó và branch hiện tại. và ở trên HEAD hiện tại sẽ là 1 commit là local change đứng thay thế commit trước khi reset. đổi tên commit
   - git reset --fixed or git reset (default): nó tương tự nhu soft nhưng sẽ bỏ file change ra khỏi index tuwcss vùng trước khi commit, hữu ichs trong việc chúng ta muốn sửa đối trước khi chạy lại commit.
-  - git reset --hard: coi như xóa cả commit khỏi HEAD index và tree, xóa cả nội dung đã thay đổi
+  - git reset --hard (git reset --hard commit có HEAD nào đó): coi như xóa cả commit khỏi HEAD index và tree, xóa cả nội dung đã thay đổi
 
 #chery pick commit : trích xuất commit
   - sao chép commit ở branch  chỉ đinh sang branch hiện tại
