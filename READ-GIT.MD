@@ -42,6 +42,7 @@
 # push cần làm sao để fast-forward tức là k có xung đột
 
 # amend 
+  - ghi đè nội dung commit , còn k muốn thêm commit mà sử dụng commit trc thì --no-edit
   - thêm nội dung commit vào cuooiss commit trước 
   - ko tạo ra thêm commit mới tránh nhiều commit or chỉnh sửa bình luận commit ngay trước đó.
 
