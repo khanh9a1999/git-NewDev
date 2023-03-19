@@ -66,3 +66,13 @@
   - thêm file khi commit thiếu
   - gộp thành 1 commit cùng nghĩa
   - sửa lại nội dung commit
+
+# muons xem lịch sử thay đổi của HEAD
+  - git reflog
+
+#git fork
+  - clone lại 1 remote repo có thể tùy tí chỉnh sửa k ảnh hưởng source gốc
+ # git clone 
+  - clone 1 remote repos xuống máy thành local repo
+# branch
+  - đại dienejk cho 1 luồng phát triển -> tiến hành merge
