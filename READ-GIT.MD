@@ -45,7 +45,7 @@
   - thêm nội dung commit vào cuooiss commit trước 
   - ko tạo ra thêm commit mới tránh nhiều commit or chỉnh sửa bình luận commit ngay trước đó.
 
-#revert commit
+#revert commit <> git revert --abort, muốn đảo ngc lại thì revert lại thì sẽ về như ban đầu
 - xóa commit đã công khai tức đã merge 1 cách an toàn
 - hoàn tác lại tất cả các commit của 1 nhánh tính tử commit bạn điền đến commit mới nhất
 - tạo ra 1 commit mới.
